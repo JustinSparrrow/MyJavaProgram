@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0"
+      prefWidth="703.0" style="-fx-background-color: #bbe09f;" xmlns="http://javafx.com/javafx/8"
+      xmlns:fx="http://javafx.com/fxml/1">
+    <CheckBox layoutX="161.0" layoutY="222.0" mnemonicParsing="false" text="Checked" textFill="#789a61" />
+    <CheckBox layoutX="285.0" layoutY="222.0" mnemonicParsing="false" text="Underfined" textFill="#789a61"/>
+    <ChoiceBox layoutX="387.0" layoutY="124.0" prefWidth="150.0"/>
+    <Label layoutX="31.0" layoutY="278.0" text="Label" textFill="#789a61"/>
+    <Label layoutX="271.0" layoutY="173.0" text="Not Available" textFill="#789a61"/>
+    <PasswordField layoutX="150.0" layoutY="48.0" promptText="Your name"/>
+    <ProgressIndicator layoutX="328.0" layoutY="272.0" progress="0.0" style="-fx-background-color: #bbe09f;"/>
+    <RadioButton layoutX="11.0" layoutY="53.0" mnemonicParsing="false" text="High" textFill="#789a61"/>
+    <RadioButton layoutX="15.0" layoutY="95.0" mnemonicParsing="false" text="Medium" textFill="#789a61"/>
+    <RadioButton layoutX="15.0" layoutY="139.0" mnemonicParsing="false" text="Low" textFill="#789a61"/>
+    <Slider layoutX="153.0" layoutY="279.0"/>
+    <PasswordField layoutX="150.0" layoutY="90.0" promptText="Your passw"/>
+    <Button layoutX="64.0" layoutY="168.0" mnemonicParsing="false" text="Accept" textFill="#789a61"/>
+    <Button layoutX="150.0" layoutY="168.0" mnemonicParsing="false" text="Decline" textFill="#789a61"/>
+    <CheckBox layoutX="42.0" layoutY="222.0" mnemonicParsing="false" text="Normal" textFill="#789a61"/>
+    <Label layoutX="430.0" layoutY="129.0" text="English" textFill="#719756"/>
+</Pane>

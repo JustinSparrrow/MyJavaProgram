@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="java">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../poi-src-5.2.5-20231118/osgi/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../poi-src-5.2.5-20231118/osgi/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../poi-src-5.2.5-20231118/poi-examples/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../poi-src-5.2.5-20231118/poi-examples/src/main/ruby/java" />
+      <root url="file://$PROJECT_DIR$/../poi-src-5.2.5-20231118/poi-examples/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../poi-src-5.2.5-20231118/poi-excelant/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../poi-src-5.2.5-20231118/poi-excelant/src/poi-ant-contrib/java" />
+      <root url="file://$PROJECT_DIR$/../poi-src-5.2.5-20231118/poi-excelant/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../poi-src-5.2.5-20231118/poi-integration/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../poi-src-5.2.5-20231118/poi-ooxml-lite-agent/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../poi-src-5.2.5-20231118/poi-ooxml/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../poi-src-5.2.5-20231118/poi-ooxml/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../poi-src-5.2.5-20231118/poi-scratchpad/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../poi-src-5.2.5-20231118/poi-scratchpad/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../poi-src-5.2.5-20231118/poi/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../poi-src-5.2.5-20231118/poi/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

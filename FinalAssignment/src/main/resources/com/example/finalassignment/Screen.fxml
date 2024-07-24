@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.TextFlow?>
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.finalassignment.Functions">
+    <top>
+        <MenuBar style="-fx-padding: 5; -fx-font-size: 12; -fx-background-color: lightblue">
+            <Menu text="文件">
+                <MenuItem fx:id="menuItemNew" text="新建" onAction="#createFile"/>
+                <MenuItem fx:id="menuItemOpen" text="打开" onAction="#openFile"/>
+                <MenuItem fx:id="menuItemSave" text="保存" onAction="#saveFile"/>
+                <MenuItem fx:id="menuItemSaveAs" text="另存为" onAction="#saveAs"/>
+            </Menu>
+            <Menu text="编辑">
+<!--                <MenuItem fx:id="menuItemEdit" text="开启编辑" onAction="#isEditable"/>-->
+                <MenuItem fx:id="menuItemCancel" text="撤销" onAction="#cancel"/>
+                <MenuItem fx:id="menuItemClear" text="清空" onAction="#clearPage"/>
+                <Menu fx:id="menuItemSearch" text="查找" onAction="#search"/>
+                <Menu text="格式">
+                    <MenuItem fx:id="menuItemType" text="样式" onAction="#changeTextType"/>
+                    <MenuItem fx:id="menuItemSize" text="大小" onAction="#changeTextSize"/>
+                    <MenuItem fx:id="menuItemColor" text="颜色" onAction="#changeTextColor"/>
+                    <MenuItem text="对齐方式" />
+                </Menu>
+                <MenuItem text="自动换行：开" />
+            </Menu>
+            <Menu text="帮助"/>
+        </MenuBar>
+    </top>
+    <center>
+        <StackPane fx:id="stackPane">
+            <TextFlow fx:id="myTextFlow" />
+            <TextArea fx:id="myTextArea" />
+        </StackPane>
+    </center>
+    <bottom>
+        <Label  fx:id="status" text="光标位置：" style="-fx-padding: 5; -fx-font-size: 12;" />
+    </bottom>
+</BorderPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+
+<?import javafx.scene.control.ColorPicker?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.lab10_2.DrawRandomLinesController">
+    <top>
+        <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <Button mnemonicParsing="false" onAction="#drawLinesButtonPressed" text="Draw Lines"/>
+            <Button mnemonicParsing="false" onAction="#drawRectsButtonPressed" text="Draw Rects"/>
+            <Button mnemonicParsing="false" onAction="#drawOvalsButtonPressed" text="Draw Ovals"/>
+            <Button mnemonicParsing="false" onAction="#clear" text="Clear"/>
+            <ColorPicker fx:id="colorPicker"/>
+        </ToolBar>
+    </top>
+    <center>
+        <Canvas fx:id="canvas" height="300.0" width="300.0" BorderPane.alignment="CENTER" />
+    </center>
+</BorderPane>
